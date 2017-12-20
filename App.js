@@ -47,7 +47,7 @@ export default class App extends Component {
   }
 
   componentWillMount() {
-    this.aaa();
+    //this.aaa();
   }
 
   render() {
@@ -56,11 +56,6 @@ export default class App extends Component {
 
 
       <View style={styles.container}>
-
-        <View>
-          <Text>AAAAAAA</Text>
-        </View>
-
         <Parent />
       </View>
     );

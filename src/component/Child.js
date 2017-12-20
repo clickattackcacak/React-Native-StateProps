@@ -8,10 +8,7 @@ export default class Child extends Component {
         disabledChangeBorderColor: this.props.changeBorderColor ? false : true, // check if this prop exists
     }
 
-    
-
     render() {
-        
         return (
             <View style={[styles.main, { backgroundColor: this.state.bColor }]}>
                 <Text style={styles.text}>CHILD</Text>
